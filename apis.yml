@@ -1,8 +1,24 @@
 aid: huon-holdings
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huon-holdings.png
 name: Huon Holdings
-description: Huon Holdings is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Huon Holdings was a provider of software and implementation administrative solutions for
+  major international insurers, primarily in the property and casualty (P&C) insurance sector. It was
+  surfaced as a portfolio company of Insight Partners and added to the API Evangelist network as a
+  stub. Enrichment found no live company website, developer portal, API documentation, or any public
+  developer surface for Huon Holdings (Insight Partners lists it with is_api_provider=false and no URL,
+  and its portfolio description is written in the past tense), so no API artifacts could be searched,
+  generated, or derived without fabrication. This record remains an identity-only stub.
 url: https://raw.githubusercontent.com/api-evangelist/huon-holdings/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +28,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Insurance
+- InsurTech
+- Property and Casualty
+- Insurance Software
+- Enterprise Software
+- Insight Partners Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
